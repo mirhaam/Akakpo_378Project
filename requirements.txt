@@ -6,6 +6,7 @@ certifi==2024.2.2
 charset-normalizer==3.3.2
 click==8.1.7
 colorama==0.4.6
+duckdb==0.10.2
 exceptiongroup==1.2.1
 fastapi==0.110.1
 fsspec==2024.3.1

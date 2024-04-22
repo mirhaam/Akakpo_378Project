@@ -12,19 +12,19 @@ To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
 
 ```{r}
 #Step1
-renv::activate()
+#renv::activate()
 ```
 
 ```{r}
-library(ggplot2)
-library(dplyr)
-library(vetiver)
+#library(ggplot2)
+#library(dplyr)
+#library(vetiver)
 ```
 
 ```{r}
 #Step2/3/4??
-renv::snapshot()
-renv::restore()
+#renv::snapshot()
+#renv::restore()
 ```
 
 ```{r}
@@ -35,15 +35,15 @@ renv::restore()
 ```{r}
 #Chap2 1
 
-model_board = board_folder(
-  "/data/model", 
-  allow_pickle_read = True
-)
-vetiver_pin_write(model_board, v)
+#model_board = board_folder(
+ # "/data/model", 
+  #allow_pickle_read = True
+#)
+#vetiver_pin_write(model_board, v)
 ```
 
 ```{r}
 #Step2
 
-app = VetiverAPI(v, check_prototype = True)
+#app = VetiverAPI(v, check_prototype = True)
 ```

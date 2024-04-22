@@ -1,0 +1,49 @@
+---
+title: "Math378Project"
+---
+
+This is a Quarto website.
+
+To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+
+```{r}
+1 + 1
+```
+
+```{r}
+#Step1
+renv::activate()
+```
+
+```{r}
+library(ggplot2)
+library(dplyr)
+library(vetiver)
+```
+
+```{r}
+#Step2/3/4??
+renv::snapshot()
+renv::restore()
+```
+
+```{r}
+#Step3
+#setwd("<Math378Project>")
+```
+
+```{r}
+#Chap2 1
+
+model_board = board_folder(
+  "/data/model", 
+  allow_pickle_read = True
+)
+vetiver_pin_write(model_board, v)
+```
+
+```{r}
+#Step2
+
+app = VetiverAPI(v, check_prototype = True)
+```

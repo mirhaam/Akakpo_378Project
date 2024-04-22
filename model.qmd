@@ -4,7 +4,7 @@ title: "model"
 
 ```{r}
 library(reticulate)
-use_virtualenv("C:/Users/C25Mirha.A-Montcho/OneDrive - afacademy.af.edu/Documents/Math378Project/.venv", required = T)
+#use_virtualenv("C:/Users/C25Mirha.A-Montcho/OneDrive - afacademy.af.edu/Documents/Math378Project/.venv", required = T)
 ```
 
 ```{python}

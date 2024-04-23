@@ -58,24 +58,24 @@ server <- function(input, output) {
   )
   
   # Fetch prediction from API
-  pred <- eventReactive(
-    input$predict,
-    {
-      log4r::info(log, "Prediction Requested")
+  #pred <- eventReactive(
+   # input$predict,
+    #{
+     # log4r::info(log, "Prediction Requested")
     #part lab4
-      r <- httr2::request(api_url) |>
-        httr2::req_body_json(vals()) |>
-        httr2::req_perform() #|>
-      log4r::info(log, "Prediction Returned")
+      #r <- httr2::request(api_url) |>
+      #  httr2::req_body_json(vals()) |>
+      #  httr2::req_perform() #|>
+      # log4r::info(log, "Prediction Returned")
       
-      if (httr2::resp_is_error(r)) {
-        log4r::error(log, paste("HTTP Error"))
-      }
+      # if (httr2::resp_is_error(r)) {
+        #log4r::error(log, paste("HTTP Error"))
+     # }
       
-      httr2::resp_body_json(r)
-      },
-    ignoreInit = TRUE
-  )
+      # httr2::resp_body_json(r)
+      #},
+    #ignoreInit = TRUE
+  #)
   
   # Render to UI
   output$pred <- renderText(pred()$predict[[1]])

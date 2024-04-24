@@ -16,3 +16,8 @@ body {
 .navbar {
   background-color: #6a0dad; /* Dark purple */
 }
+
+/* Change text color of navbar tabs to black */
+.navbar-nav .nav-link {
+  color: black;
+}

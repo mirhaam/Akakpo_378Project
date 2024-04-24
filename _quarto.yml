@@ -5,8 +5,12 @@ website:
   title: "Math378Project"
   navbar:
     left:
-      - href: index.qmd, eda.qmd, model.qmd
+      - href: index.qmd
         text: Home
+      - href: eda.qmd
+        text: EDA
+      - href: model.qmd
+        text: Model
       - about.qmd
 
 format:

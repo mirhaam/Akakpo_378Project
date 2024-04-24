@@ -2,8 +2,11 @@
 title: "About"
 ---
 
-About this site
+About this site:
 
-```{# My beautifiul website (: Here you'll find some information about penguins}
+My beautiful website (:
 
+Here you'll find some information about penguins
+
+```{}
 ```

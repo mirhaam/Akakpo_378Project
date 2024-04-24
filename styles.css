@@ -1,1 +1,18 @@
 /* css styles */
+
+/* styles.css */
+
+/* Purple border for all elements */
+body {
+  border: 4px solid purple;
+}
+
+/* Optional: Specific border color for navbar */
+.navbar {
+  border-color: purple;
+}
+
+/* Optional: Change navbar background color */
+.navbar {
+  background-color: #6a0dad; /* Dark purple */
+}

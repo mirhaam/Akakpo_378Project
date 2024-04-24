@@ -4,6 +4,6 @@ title: "About"
 
 About this site
 
-```{r}
-1 + 1
+```{# My beautifiul website (: Here you'll find some information about penguins}
+
 ```

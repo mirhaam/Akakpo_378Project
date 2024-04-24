@@ -7,6 +7,3 @@ About this site:
 My beautiful website (:
 
 Here you'll find some information about penguins
-
-```{}
-```

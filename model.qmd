@@ -64,10 +64,12 @@ model_board = board_folder(
 
 ```{python}
 #API
+
 from vetiver import VetiverAPI
 app = VetiverAPI(v, check_prototype = True)
 ```
 
 ```{python}
+
 con.close()
 ```

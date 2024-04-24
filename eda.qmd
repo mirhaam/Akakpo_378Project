@@ -8,6 +8,7 @@ library(dplyr)
 library(ggplot2)
 library(dbplyr)
 
+#| message: false
 
 #df <- palmerpenguins::penguins
 #Chap3
@@ -20,6 +21,7 @@ df <- dplyr::tbl(con, "penguins")
 ```
 
 ```{r}
+#| message: false
 df %>%
   group_by(species, sex) %>%
   summarise(
@@ -34,7 +36,8 @@ df %>%
 ```
 
 ```{r}
-
+#| message: false
+#| warning: false 
 #Penguin Size vs Mass by Species
 df %>%
   ggplot(aes(x = bill_length_mm, y = body_mass_g, color = species)) +

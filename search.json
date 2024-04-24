@@ -11,7 +11,7 @@
     "href": "about.html",
     "title": "About",
     "section": "",
-    "text": "About this site\n\n1 + 1\n\n[1] 2"
+    "text": "About this site"
   },
   {
     "objectID": "eda.html",
@@ -23,8 +23,8 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Math378Project",
+    "title": "Akakpo Math 378 Project",
     "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\n1 + 1\n\n[1] 2\n\n\n\n#Step1\n#renv::activate()\n\n\n#library(ggplot2)\n#library(dplyr)\n#library(vetiver)\n\n\n#Step2/3/4??\n#renv::snapshot()\n#renv::restore()\n\n\n#Step3\n#setwd(\"&lt;Math378Project&gt;\")\n\n\n#Chap2 1\n\n#model_board = board_folder(\n # \"/data/model\", \n  #allow_pickle_read = True\n#)\n#vetiver_pin_write(model_board, v)\n\n\n#Step2\n\n#app = VetiverAPI(v, check_prototype = True)"
+    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
   }
 ]

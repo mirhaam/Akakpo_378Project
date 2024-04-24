@@ -46,10 +46,10 @@ print(f"Coefficients {model.coef_}")
 ```{python}
 
 from vetiver import VetiverModel
-#v = VetiverModel(model, model_name='penguin_model', prototype_data=X)
+v = VetiverModel(model, model_name='penguin_model', prototype_data=X)
 
-b = pins.board_folder('/data/model', allow_pickle_read=True)
-v = VetiverModel.from_pin(b, 'penguin_model', 
+#b = pins.board_folder('/data/model', allow_pickle_read=True)
+#v = VetiverModel.from_pin(b, 'penguin_model', 
                           version = '20230422T102952Z-cb1f9')
 ```
 
